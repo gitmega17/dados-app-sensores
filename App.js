@@ -4,8 +4,10 @@ import { createStackNavigator } from '@react-navigation/stack';
 import LoginScreen from './screens/LoginScreen';
 import RegisterScreen from './screens/RegisterScreen';
 import GraphScreen from './screens/GraphScreen';
+import SensorDataSender from './SensorDataSend';
 
 const Stack = createStackNavigator();
+
 
 export default function App() {
   return (
